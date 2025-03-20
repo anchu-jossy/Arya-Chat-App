@@ -25,12 +25,12 @@ fun AttachOptionItem(
     text: String,
     gradientColors: List<Color>
 ) {
-    val InterRegular = FontFamily(
+    val interRegular = FontFamily(
         Font(R.font.inter_regular, FontWeight.SemiBold) // Ensure this font is available in res/font
     )
     Row(
         modifier = Modifier
-            .fillMaxWidth()
+            .wrapContentSize()
             .padding(vertical = 8.dp, horizontal = 16.dp), // Adds padding for better spacing
         verticalAlignment = Alignment.CenterVertically // Aligns items centrally within the row
     ) {
@@ -47,7 +47,7 @@ fun AttachOptionItem(
         // Display text with styling
         Text(
             text = text,
-            fontSize = 18.sp, fontFamily = InterRegular,
+            fontSize = 18.sp, fontFamily = interRegular,
             color = Color.White // Ensures visibility on dark backgrounds
         )
     }
