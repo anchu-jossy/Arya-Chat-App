@@ -27,14 +27,13 @@ fun ChatScreen(innerPadding: PaddingValues) {
             .fillMaxSize()
             .background(
                 brush = Brush.linearGradient(
-                    colors = listOf(
-                        Color(0xFF048df5), // Blue
-                        Color(0xFF14a8f6), // Lighter Blue
-                        Color(0xFF91aebb), // Greyish-Blue
-                        Color(0xFFe9c39c)  // Warm Beige
-                    ),
-                    tileMode = TileMode.Clamp
+                    0.0f to Color(0xFF048df5), // Blue
+                    0.35f to Color(0xFF14a8f6),
+                    0.75f to Color(0xFF91aebb), // Lighter Blue
+                    1.0f to Color(0xFFe9c39c),  // Warm Beige
                 )
+
+
             )
             .clickable { isMenuExpanded = false } // Close menu when clicking outside
     ) {
