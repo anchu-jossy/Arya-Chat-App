@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ARYA Coding Test</string>
+    <string name="message_1">Hey John, let\'s get together and discuss the job proposal. Does Monday work?</string>
+    <string name="message_2">That would be great. Yes, I will see you on Monday.</string>
+    <string name="time_1">11:48 AM</string>
+    <string name="time_2">1:54 PM</string>
+    <string name="add">Add</string>
+    <string name="message_placeholder">Message</string>
+    <string name="send">Send</string>
+    <string name="camera">Camera</string>
+    <string name="photos">Photos</string>
+    <string name="files">Files</string>
+    <string name="audio">Audio</string>
+
+</resources>
