@@ -10,6 +10,7 @@ import androidx.compose.ui.draw.blur
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.TileMode
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.aryacodingtest.R
@@ -32,8 +33,7 @@ fun ChatScreen(innerPadding: PaddingValues) {
                         Color(0xFF91aebb), // Greyish-Blue
                         Color(0xFFe9c39c)  // Warm Beige
                     ),
-                    start = Offset(0f, 0f),
-                    end = Offset.Infinite
+                    tileMode = TileMode.Clamp
                 )
             )
             .clickable { isMenuExpanded = false } // Close menu when clicking outside
