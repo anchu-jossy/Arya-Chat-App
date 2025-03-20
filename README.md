@@ -17,7 +17,7 @@ Animation: Jetpack Compose's built-in animation APIs
 
 Gradient : Background And  buttons
 
-<br> <br> 
+<br> 
 
 **Features Implemented**
 
